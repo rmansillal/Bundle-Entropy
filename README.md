@@ -46,6 +46,7 @@ Synthetic data (toy examples) represents the grocery purchase history of 11 cust
 
 ### C. Replication of the methodology of the desired properties of *Bundle entropy*
 
+The implementation in SQL and Python to replicate these results can be found in: [https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD](https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD?usp=sharing)
 
 ### D. Replication of the methodology of the case study (Dunnhumby data set)
 
@@ -53,4 +54,4 @@ Our paper tested *Bundle entropy* on Dunnhumby open source data set called "The 
 
 Dunnhumby data set (the complete journey) can be downloaded from: [https://www.dunnhumby.com/source-files/](https://www.dunnhumby.com/source-files/)
 
-The implementation in SQL and Python to replicate these results can be found in: [https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD](https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD?usp=sharing)
+The implementation in SQL and Python to replicate these results can be found in: [https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF](https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF?usp=sharing)
