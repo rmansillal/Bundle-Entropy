@@ -41,33 +41,41 @@ nal 28(3), 379–423*.
 
 ### B. Replication of the methodology on synthetic data
 
-Synthetic data (toy examples) represents the grocery purchase history of 11 customers. This table exemplifies that our proposed measure meets all the desired properties described in our paper. The implementation of the synthetic table to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z](https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z?usp=sharing)
+Synthetic data (toy examples) represents the grocery purchase history of 11 customers. This table exemplifies that our proposed measure meets all the desired properties described in our paper. The implementation of the synthetic table (Table 1 of our paper) to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z](https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z?usp=sharing)
 
-<img align="center" alt="Table 1" width="500" src="https://user-images.githubusercontent.com/43341262/187888813-1eeba308-7909-460e-9bf4-4297360d159d.png">
+<p align="center"><b> Table 1: </b></p>
+<p align="center"> <img width="500" src="https://user-images.githubusercontent.com/43341262/187895854-b59bcba5-0583-4dd5-911d-8260c4879571.png" alt="Figure 1" /> </p>
 
 ### C. Replication of the methodology of the desired properties of *Bundle entropy*
 
 Quasi-synthetic data were used to evaluate the desired properties that we consider essential for a measure that aims to measure the predictability of systematic basket composition at an individual level. The implementation in SQL and Python to replicate Table 2, Figure 1 and 2 of our paper can be found in: [https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD](https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD?usp=sharing)
 
-**Table 2:**
-<p align="left"> <img width="300" src="https://user-images.githubusercontent.com/43341262/187892000-4ce1391f-3def-4ed1-8fc4-b5dc9c075088.png" alt="Table 2" /> </p>
+<p align="center"><b> Table 2: tatistic for property 1</b></p>
+<p align="center"> <img width="300" src="https://user-images.githubusercontent.com/43341262/187892000-4ce1391f-3def-4ed1-8fc4-b5dc9c075088.png" alt="Table 2" /> </p>
 
-**Figure 1**
-<p align="left"> <img width="400" src="https://user-images.githubusercontent.com/43341262/187892133-f6afdfdf-f9c7-4145-828e-b433aaf3b566.png" alt="Figure 1" /> </p>
+<p align="center"><b> Figure 1: P1: adding systematic vs unsystematic bundles</b></p>
+<p align="center"> <img width="450" src="https://user-images.githubusercontent.com/43341262/187892133-f6afdfdf-f9c7-4145-828e-b433aaf3b566.png" alt="Figure 1" /> </p>
 
-**Figure 2**
-<p align="left"> <img width="300" src="https://user-images.githubusercontent.com/43341262/187892202-153687a1-629d-482d-a99f-41bfdfa45719.png" alt="Figure 2" /> </p>
+<p align="center"><b> Figure 2: omparing measures by increasing the size of systematic bundles added to all baskets.</b></p>
+<p align="center"> <img width="350" src="https://user-images.githubusercontent.com/43341262/187892202-153687a1-629d-482d-a99f-41bfdfa45719.png" alt="Figure 2" /> </p>
 
 
 ### D. Replication of the methodology of the case study (Dunnhumby data set)
 
-Our paper tested *Bundle entropy* on Dunnhumby open source data set called "The complete journey", which contains grocery purchases at a household level over two years from 2,500 frequent shoppers. The Dunnhumby dataset contain records of 'what', 'how much', 'where', and 'when' each transaction with transactions linked to a customer via their loyalty card. *Bundle entropy* is also tested on a second large transactional dataset of loyalty card holders from a large UK grocery retailer. However, the dataset is unavailable for public release.
+Our paper tested *Bundle entropy* on Dunnhumby open source data set called "The complete journey", which contains grocery purchases at a household level over two years from 2,500 frequent shoppers. *Bundle entropy* is also tested on a second large transactional dataset of loyalty card holders from a large UK grocery retailer. However, the dataset is unavailable for public release.
 
 Dunnhumby data set (the complete journey) can be downloaded from: [https://www.dunnhumby.com/source-files/](https://www.dunnhumby.com/source-files/)
 
-The implementation in SQL and Python to replicate these results can be found in: [https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF](https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF?usp=sharing)
+The implementation in SQL and Python to replicate all the results of the case study (Figure 3a, 4, and Table 3) can be found in: [https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF](https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF?usp=sharing)
 
+<p align="center"><b> Figure 3a: Kendall Tau Rank Agreement (Mean Rank Difference) </b></p>
+<p align="center"> <img width="350" src="https://user-images.githubusercontent.com/43341262/187929401-3e82e523-a454-4d7b-88eb-2cfac5d3c364.png" alt="Figure 3a" /> </p>
 
+<p align="center"><b> Figure 4: Percentage of shared households (systematic, standard, and unsystematic) between measures</b></p>
+<p align="center"> <img width="850" src="https://user-images.githubusercontent.com/43341262/187928920-f85b192b-cb84-4db9-9e2f-3810e5eac85a.png" alt="Figure 4" /> </p>
+
+<p align="center"><b> Table 3: Spending and visiting patterns per measure</b></p>
+<p align="center"> <img width="800" src="https://user-images.githubusercontent.com/43341262/187927592-5211aa44-7a34-48d9-9451-71a7f5335948.png" alt="Table 3" /> </p>
 
 
 
