@@ -39,12 +39,14 @@ nal 28(3), 379–423*.
 
   BLE (formula 1 in the paper) is implemented as a custom postgres aggregrate function. The implementation to copy and paste into psql can be found in ( it requires the previous code to be run to define **basket_tuple** and **_state_bundle_entropy**): [https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe](https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe?usp=sharing)
 
+
 ### B. Replication of the methodology on synthetic data
 
 Synthetic data (toy examples) represents the grocery purchase history of 11 customers. This table exemplifies that our proposed measure meets all the desired properties described in our paper. The implementation of the synthetic table (Table 1 of our paper) to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z](https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z?usp=sharing)
 
 <p align="center"><b> Table 1: Comparison of all measures on synthetic data</b></p>
 <p align="center"> <img width="500" src="https://user-images.githubusercontent.com/43341262/187895854-b59bcba5-0583-4dd5-911d-8260c4879571.png" alt="Figure 1" /> </p>
+
 
 ### C. Replication of the methodology of the desired properties of *Bundle entropy*
 
@@ -77,6 +79,18 @@ The implementation in SQL and Python to replicate all the results of the case st
 <p align="center"><b> Table 3: Spending and visiting patterns per measure</b></p>
 <p align="center"> <img width="800" src="https://user-images.githubusercontent.com/43341262/187927592-5211aa44-7a34-48d9-9451-71a7f5335948.png" alt="Table 3" /> </p>
 
+
+## E. Python and libraries versions used
+
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="28"/> </a> 3.6.9 
+
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="28"/> </a> 1.1.5 
+
+<a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="28"/> </a> 1.19.5 
+
+<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/43341262/188117265-1c162daf-f86c-4bcf-89e6-04faa8482558.svg" alt="matplotlib" width="80" height="17"/> </a> 3.1.1 
+
+<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/43341262/188117310-a42f837d-fd35-4927-8d2b-a6dc39f402b9.svg" alt="seaborn" width="80" height="17"/> </a> 0.11.1 
 
 
 
