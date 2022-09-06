@@ -41,10 +41,12 @@ nal 28(3), 379–423*.
 
 ### B. Replication of the methodology on synthetic data
 
-Synthetic data (toy examples) represents the grocery purchase history of 11 customers. This table exemplifies that our proposed measure meets all the desired properties described in our paper. The implementation of the synthetic table (Table 1 of our paper) to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z](https://colab.research.google.com/drive/1ikmgT0AN7INBczu-s4yVqsfIfvFt491z?usp=sharing)
+* #### Replication of FIGURE 1
 
-<p align="center"><b> Table 1: Comparison of all measures on synthetic data</b></p>
-<p align="center"> <img width="500" src="https://user-images.githubusercontent.com/43341262/187895854-b59bcba5-0583-4dd5-911d-8260c4879571.png" alt="Figure 1" /> </p>
+Figure 1 illustrate some synthetic examples (the purchasing patterns of five customers ) motivating the need for a new measure. The implementation of the synthetic examples to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1MJG7mA8_KXuzHZZ24FGZNbejaSvAYQzG](https://colab.research.google.com/drive/1MJG7mA8_KXuzHZZ24FGZNbejaSvAYQzG?usp=sharing)
+
+<p align="center"><b> Figure 1: Examples motivating the need for a new measure</b></p>
+<p align="center"> <img width="550" src="https://user-images.githubusercontent.com/43341262/188644292-634da6b6-bafb-4360-919a-e560acc78aec.png" alt="Figure 1" /> </p>
 
 
 ### C. Replication of the methodology of the desired properties of *Bundle entropy*
