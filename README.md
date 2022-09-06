@@ -1,9 +1,8 @@
-<h1 align="center">Bundle entropy as an optimized measure of consumers’ systematic product choice combinations</h1>
+<h1 align="center">Bundle entropy as an optimized measure of consumers' systematic product choice combinations in mass transactional data</h1>
 
 <h3 align="center">Bundle Entropy is introduced in:</h3>
 
-<p align="center">Mansilla, R., Smith, G., Smith A. and Goulding, J. "Bundle entropy as an optimized measure of
-consumers’ systematic product choice combinations". In 2022 IEEE International Conference on Big Data (IEEE Big Data 2022), Osaka, Japan.</p>
+<p align="center">Mansilla, R., Smith, G., Smith A. and Goulding, J. "Bundle entropy as an optimized measure of consumers' systematic product choice combinations in mass transactional data". In 2022 IEEE International Conference on Big Data (IEEE Big Data 2022), Osaka, Japan.</p>
 
 
 ## Code to replicate the results from our IEEE Big Data paper
@@ -12,9 +11,9 @@ consumers’ systematic product choice combinations". In 2022 IEEE International
 ### A. Postgres Aggregate Functions
 
 
-* #### The proposed *Bundle Entropy* 
+* #### *Bundle Entropy (BE)* 
 
-  Bundle Entropy (formula 9 in the paper) is implemented as a custom postgres aggregrate function. The implementation to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe](https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe?usp=sharing)
+  The proposed Bundle Entropy (formula 9 in the paper) is implemented as a custom postgres aggregrate function. The implementation to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe](https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe?usp=sharing)
 
 
 * #### *Basket Revealed Entropy (BRE)* 
@@ -25,7 +24,7 @@ consumers’ systematic product choice combinations". In 2022 IEEE International
   BRE is implemented as a custom postgres aggregrate function. The implementation to copy and paste into psql can be found in: [https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe](https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe?usp=sharing)
 
 
-* #### *Standard Entropy*
+* #### *Item Level Entropy (IE)*
 
   The Standard Entropy method (formula 1 in the paper) is from:
 
@@ -37,7 +36,7 @@ nal 28(3), 379–423*.
 
 * #### *Basket Level Entropy (BLE)*
 
-  BLE (formula 1 in the paper) is implemented as a custom postgres aggregrate function. The implementation to copy and paste into psql can be found in ( it requires the previous code to be run to define **basket_tuple** and **_state_bundle_entropy**): [https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe](https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe?usp=sharing)
+  BLE (formula 2 in the paper) is implemented as a custom postgres aggregrate function. The implementation to copy and paste into psql can be found in ( it requires the previous code to be run to define **basket_tuple** and **_state_bundle_entropy**): [https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe](https://colab.research.google.com/drive/1zBE4DpumMtQKRk3yYY2QOiGS7WUnVSEe?usp=sharing)
 
 
 ### B. Replication of the methodology on synthetic data
