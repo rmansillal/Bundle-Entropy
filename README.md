@@ -111,5 +111,7 @@ Table 2 shows the Pearson Correlation for all measures under exploration, as wel
 
 <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/43341262/188117310-a42f837d-fd35-4927-8d2b-a6dc39f402b9.svg" alt="seaborn" width="80" height="17"/> </a> *0.11.1* 
 
+<a href="https://scipy.org/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/43341262/188731455-fda026fd-0031-44b7-b5e6-4862fc3691aa.png" alt="scipy" width="75" height="17"/> </a> *1.7.1* 
 
+<a href="https://www.statsmodels.org/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/43341262/188731863-23c65207-b8e4-4e09-b26d-764696b84839.svg" alt="statsmodels" width="80" height="17"/> </a> *0.12.2* 
 
