@@ -51,16 +51,29 @@ Figure 1 illustrate some synthetic examples (the purchasing patterns of five cus
 
 ### C. Replication of the methodology of the desired properties of *Bundle entropy*
 
-Quasi-synthetic data were used to evaluate the desired properties that we consider essential for a measure that aims to measure the predictability of systematic basket composition at an individual level. The implementation in SQL and Python to replicate Table 2, Figure 1 and 2 of our paper can be found in: [https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD](https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD?usp=sharing)
+Quasi-synthetic data were used to evaluate the desired properties that we consider essential for a measure that aims to measure the predictability of systematic basket composition at an individual level. The implementation in SQL and Python to replicate Table 1, Figure 2 and 3 of our paper can be found in: [https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD](https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD?usp=sharing)
 
-<p align="center"><b> Table 2: tatistic for property 1</b></p>
-<p align="center"> <img width="300" src="https://user-images.githubusercontent.com/43341262/187892000-4ce1391f-3def-4ed1-8fc4-b5dc9c075088.png" alt="Table 2" /> </p>
+* #### Replication of TABLE 1
 
-<p align="center"><b> Figure 1: P1: adding systematic vs unsystematic bundles</b></p>
-<p align="center"> <img width="450" src="https://user-images.githubusercontent.com/43341262/187892133-f6afdfdf-f9c7-4145-828e-b433aaf3b566.png" alt="Figure 1" /> </p>
+Table 1 illustrates the percentage of households that accords to property 0 and 1 for all measures and the percentage of households that each measures considered as fully predictable.
 
-<p align="center"><b> Figure 2: omparing measures by increasing the size of systematic bundles added to all baskets.</b></p>
-<p align="center"> <img width="350" src="https://user-images.githubusercontent.com/43341262/187892202-153687a1-629d-482d-a99f-41bfdfa45719.png" alt="Figure 2" /> </p>
+<p align="center"><b> Table 1: Measures vs. Properties 0 & 1 and the percentage
+of households considered as fully predictable</b></p>
+<p align="center"> <img width="450" src="https://user-images.githubusercontent.com/43341262/188661423-c914ae1d-55a1-4d68-8738-7d1f561552ac.png" alt="Table 1" /> </p>
+
+* #### Replication of FIGURE 2
+
+Figure 2 depicts the scores received for each examined metric (BE, IE, BLE, amd BRE) when systematic bundles were added to the purchases of three random households. 
+
+<p align="center"><b> Figure 2: Examples of three household’s scores for the evaluated measures when adding systematic bundles to their purchases</b></p>
+<p align="center"> <img width="400" src="https://user-images.githubusercontent.com/43341262/188662488-60a4ce09-dc11-4c09-8435-051673d78a9b.png" alt="Figure 2" /> </p>
+
+* #### Replication of FIGURE 3
+
+Figure 3 depicts the empirical performance of the measures for property 2 by randomly picking all of the baskets from a random sample of 1,000 households and gradually building systematic bundles of varying sizes (from one to 10 items) to each household's baskets. 
+
+<p align="center"><b> Figure 3: Comparing measures by increasing the size of systematic bundles added to all baskets.</b></p>
+<p align="center"> <img width="400" src="https://user-images.githubusercontent.com/43341262/188662838-87df191b-663c-400e-8153-93ac48fd7f40.png" alt="Figure 3" /> </p>
 
 
 ### D. Replication of the methodology of the case study (Dunnhumby data set)
