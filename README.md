@@ -51,7 +51,7 @@ Figure 1 illustrate some synthetic examples (the purchasing patterns of five cus
 
 ### C. Replication of the methodology of the desired properties of *Bundle entropy*
 
-Quasi-synthetic data were used to evaluate the desired properties that we consider essential for a measure that aims to measure the predictability of systematic basket composition at an individual level. The implementation in SQL and Python to replicate Table 1, Figure 2 and 3 of our paper can be found in: [https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD](https://colab.research.google.com/drive/14BUnWsX1yq1xTK3MFjIB3qVI3xWpseGD?usp=sharing)
+Quasi-synthetic data were used to evaluate the desired properties that we consider essential for a measure that aims to measure the predictability of systematic basket composition at an individual level. The implementation in SQL and Python to replicate Table 1, Figure 2 and 3 of our paper can be found in: [https://colab.research.google.com/drive/1fUId0xy6HVabp2A8YAQvqLwtOsmNSPH](https://colab.research.google.com/drive/1fUId0xy6HVabp2A8YAQvqLwtOsmNSPH_?usp=sharing)
 
 * #### Replication of TABLE 1
 
@@ -82,16 +82,21 @@ Our paper tested *Bundle entropy* on Dunnhumby open source data set called "The 
 
 Dunnhumby data set (the complete journey) can be downloaded from: [https://www.dunnhumby.com/source-files/](https://www.dunnhumby.com/source-files/)
 
-The implementation in SQL and Python to replicate all the results of the case study (Figure 3a, 4, and Table 3) can be found in: [https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF](https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF?usp=sharing)
+The implementation in SQL and Python to replicate all the results of the case study (Figure 4a and Table 2) can be found in: [https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF](https://colab.research.google.com/drive/1woNGSpYD6jR3JCaDxqlX8dknUHgQfwrF?usp=sharing)
 
-<p align="center"><b> Figure 3a: Kendall Tau Rank Agreement (Mean Rank Difference) </b></p>
-<p align="center"> <img width="350" src="https://user-images.githubusercontent.com/43341262/187929401-3e82e523-a454-4d7b-88eb-2cfac5d3c364.png" alt="Figure 3a" /> </p>
+* #### Replication of FIGURE 4a
 
-<p align="center"><b> Figure 4: Percentage of shared households (systematic, standard, and unsystematic) between measures</b></p>
-<p align="center"> <img width="850" src="https://user-images.githubusercontent.com/43341262/187928920-f85b192b-cb84-4db9-9e2f-3810e5eac85a.png" alt="Figure 4" /> </p>
+Figure 4 displays the Mean Rank Difference between the likelihood of a pair of households (consumers) being in the same rank order according to both measurements and the likelihood of the pairs being in different rank orders.
 
-<p align="center"><b> Table 3: Spending and visiting patterns per measure</b></p>
-<p align="center"> <img width="800" src="https://user-images.githubusercontent.com/43341262/187927592-5211aa44-7a34-48d9-9451-71a7f5335948.png" alt="Table 3" /> </p>
+<p align="center"><b> Figure 4a: Kendall Tau Rank Agreement (Mean Rank Difference) of relative household/customer predictability for pairs of measures </b></p>
+<p align="center"> <img width="350" src="https://user-images.githubusercontent.com/43341262/188725072-8b0dc32f-b37d-42a7-8865-754d7bad07ff.png" alt="Figure 4a" /> </p>
+
+* #### Replication of TABLE 2
+
+Table 2 shows the Pearson Correlation for all measures under exploration, as well as the average basket expenditure and number of visits. Furthermore, the association of the measures with another performance indicator important to the fast-moving consumer goods market - an individual's average monthly spend (an indication of potential lifetime value)
+ 
+<p align="center"><b> Table 2: Pearson Correlation between the measures and spending and visiting factors.</b></p>
+<p align="center"> <img width="500" src="https://user-images.githubusercontent.com/43341262/188726154-fb9d69f1-c56f-4524-9630-19ef63c98be2.png" alt="Table 3" /> </p>
 
 
 ## E. Python and libraries versions used
