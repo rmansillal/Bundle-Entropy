@@ -1,7 +1,7 @@
 <h1 align="center">Bundle entropy as an optimized measure of consumers' systematic product choice combinations in mass transactional data</h1>
 
 <h3 align="center">Bundle Entropy is introduced in:</h3>
-<h3 align="center">(under review)</h3>
+<h3 align="center">(Accepted as regular paper at the IEEE Big Data 2022)</h3>
 <p align="center">Mansilla, R., Smith, G., Smith A. and Goulding, J. "Bundle entropy as an optimized measure of consumers' systematic product choice combinations in mass transactional data". In 2022 IEEE International Conference on Big Data (IEEE Big Data 2022), Osaka, Japan.</p>
 
 
