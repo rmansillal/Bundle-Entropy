@@ -96,7 +96,7 @@ Figure 4 displays the Mean Rank Difference between the likelihood of a pair of h
 Table 2 shows the Pearson Correlation for all measures under exploration, as well as the average basket expenditure and number of visits. Furthermore, the association of the measures with another relevant performance indicator: an individual's average monthly spend (a proxy to potential lifetime value)
  
 <p align="center"><b> Table 2: Pearson Correlation between the measures and spending and visiting factors.</b></p>
-<p align="center"> <img width="500" src="https://user-images.githubusercontent.com/43341262/188726154-fb9d69f1-c56f-4524-9630-19ef63c98be2.png" alt="Table 3" /> </p>
+<p align="center"> <img width="500" src="https://user-images.githubusercontent.com/43341262/199045400-e0f9b505-851a-4e40-abc1-460ba34f4740.png" alt="Table 3" /> </p>
 
 
 ## E. Python and libraries versions used
